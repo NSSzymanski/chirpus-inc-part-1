@@ -1,0 +1,89 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding-bottom: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-title {
+  font-weight: bold;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+li {
+  margin: 10px;
+}
+
+.nav-list {
+  padding-top: 0%;
+  list-style: none;
+  padding-left: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hire-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  width: 400px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+.lorem {
+  border-left: 5px solid #69696a;
+  padding: 20px;
+}
+
+.call-button {
+  background-color: #000;
+  color: #fff;
+  width: 400px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  background-color: rgba(247, 193, 162, 0.7);
+} /* I'm not sure */
+
+.footer-title {
+  font-weight: bold;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
